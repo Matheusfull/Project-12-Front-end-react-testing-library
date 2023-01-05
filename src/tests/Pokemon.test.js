@@ -39,6 +39,7 @@ describe('Testes de renderização com URL', () => {
     expect(details).toBeInTheDocument();
     userEvent.click(details);
 
+    // verifica se foi para tal endereço
     const { location: { pathname } } = history;
     expect(pathname).toBe('/pokemons/25');
     /* expect(pathname).toHaveTextContent('/25'); */
@@ -68,3 +69,12 @@ describe('Teste se existe um ícone de estrela nos pokémons favoritados', () =>
     expect(alt).toBeInTheDocument();
   });
 });
+
+/*
+Requisito 6
+teste 1 - Vamos verificar todos os elementos no card, como o título, tipo, peso e imagem.
+
+teste 2 - verifica se ao clicar no pokemon, a url leva para um endereço que há o id dele.
+
+teste 3 - teste normalzão: ta na home, clica em mais detalhes, favorita e depois ve se aparece a estrela com o alt
+*/

@@ -43,6 +43,7 @@ describe('testando o botão e slideshow de pokemons', () => {
     expect(pokemon2).toBeInTheDocument();
 
     userEvent.click(button);
+
     const pokemon3 = screen.getByText('Caterpie');
     expect(pokemon3).toBeInTheDocument();
 
@@ -51,22 +52,27 @@ describe('testando o botão e slideshow de pokemons', () => {
     expect(pokemon4).toBeInTheDocument();
 
     userEvent.click(button);
+
     const pokemon5 = screen.getByText('Alakazam');
     expect(pokemon5).toBeInTheDocument();
 
     userEvent.click(button);
+
     const pokemon6 = screen.getByText('Mew');
     expect(pokemon6).toBeInTheDocument();
 
     userEvent.click(button);
+
     const pokemon7 = screen.getByText('Rapidash');
     expect(pokemon7).toBeInTheDocument();
 
     userEvent.click(button);
+
     const pokemon8 = screen.getByText('Snorlax');
     expect(pokemon8).toBeInTheDocument();
 
     userEvent.click(button);
+
     const pokemon9 = screen.getByText('Dragonair');
     expect(pokemon9).toBeInTheDocument();
   });
@@ -161,3 +167,31 @@ describe('Teste se a Pokédex contém um botão para resetar o filtro', () => {
     expect(pokemon1).toBeInTheDocument();
   });
 });
+
+/*
+Requiito 5
+Creio que não haverá um comentário muito extenso, pois o próprio código está com uma sintaxe bem flúida.
+Teste 1
+- Fazer o famoso Ctrl c + Ctrl v, pegao o elemento da tela pela sua função, podendo ser um link, botão, texto, e depois ver se ele está na tela.
+
+teste 2
+1 - Novamento vamos fazer o Ctrl c + Ctrl v para pegar e verificar se há o botão de próximo pokemon
+2 - Vamos entrar num loop semi-infinito:
+- Vamos ver se o primeiro pokemon está aparecendo
+- pega o botão e clica
+- Vê se o segundo pokemon está aparecendo
+
+- clica
+- ve se o terceiro aparece
+
+- clica
+- ve se o quarto aparece ...
+
+teste 3
+- Pega o botão de filtro de cada espécie e ver se está na tela
+- clica
+- ve se vai aparecer na tela o pokemon daquele filtro, através de um testo com o seu nome.
+
+teste 4
+só testar se o botão all está na tela e ao ser clicado indica o próximo pokemon.
+*/

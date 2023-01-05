@@ -32,3 +32,17 @@ describe('requisito 4', () => {
     */
   });
 });
+
+/*
+Requisito 4
+Na página not found há 4 coisas para testar:
+1 - O título escrito pokédex
+2 - Os 3 links que ficam sempre no header ( home, about, favorite pokemns )
+3 - O título 'Page requested not found 😭'
+4 - A imagem do pokemon chorando kkkkk
+obs: Quando vamos testar imagem no react, podemos pegá-la pelo alt e depois ver se tem o atributo src com o endereço.
+*/
+
+/*
+Aqui começamos a usar o renderWithRouter, que é uma função, para nos ajudar com o histórico.
+*/
