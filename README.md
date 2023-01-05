@@ -1,4 +1,4 @@
-#🤖🕵🏼‍♂️🎯 Boas-vindas ao repositório do projeto de testes com a React Testing Library! 🧾📝📖
+# 🤖🕵🏼‍♂️🎯 Boas-vindas ao repositório do projeto de testes com a React Testing Library! 🧾📝📖
 
 <!-- # Como ficou o projeto ?
 
