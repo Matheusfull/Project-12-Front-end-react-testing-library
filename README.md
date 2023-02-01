@@ -38,9 +38,9 @@
 
   1. Clone o repositório
 
-  - Use o comando: `git clone git@github.com:Matheusfull/Front-end-6-react-testing-library.git`.
+  - Use o comando: `git clone git@github.com:Matheusfull/Project-12-Front-end-react-testing-library.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `cd  Front-end-6-react-testing-library`
+    - `cd Project-12-Front-end-react-testing-library`
 
   2. Instale as dependências
 
